@@ -3,9 +3,11 @@ body {
 
 }
 
-img {
-  width: 300px;
+@media (min-width: 1200px)
+.container {
+  width: 1170px;
 }
+
 
 h1 {
   text-align: center;
@@ -14,18 +16,39 @@ h1 {
 .page-header {
   background-color: #EFEC86;
   padding-top: 20px;
+  width: 1130px;
+}
+
+.top-header {
+  width: 1130px;
+  background-color: #EFEC86;
+  padding-top: 20px;
+  width: 1290px;
 }
 
 .sub {
-  background-color: #EFEC86;
+  /*background-color: #EFEC86;*/
   padding-top: 20px;
 }
 
-.character {
-  float: left;
-  margin: 10px;
-  padding: 10px;
-  max-width: 300px;
-  height: 300px;
-  min-height: 550px;
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: auto;
+}
+
+.thumbnail {
+  width: 250px;
+  height: 270px;
+  overflow: auto;
+  /*max-width:calc(150% - 10px);*/
+
+}
+
+
+
+.row {
+  margin-right: 50px;
+  margin-left: -15px;
 }
