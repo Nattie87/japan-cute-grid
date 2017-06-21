@@ -1,3 +1,31 @@
 body {
-  background-color: orange;
+  font-family: 'Baloo Bhaina', cursive;
+
+}
+
+img {
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.page-header {
+  background-color: #EFEC86;
+  padding-top: 20px;
+}
+
+.sub {
+  background-color: #EFEC86;
+  padding-top: 20px;
+}
+
+.character {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  max-width: 300px;
+  height: 300px;
+  min-height: 550px;
 }
