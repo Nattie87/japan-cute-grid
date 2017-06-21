@@ -1,5 +1,5 @@
 body {
-  font-family: 'Baloo Bhaina', cursive;
+  font-family: 'Days One', sans-serif;
 
 }
 
@@ -42,7 +42,9 @@ img {
   width: 250px;
   height: 270px;
   overflow: auto;
-  /*max-width:calc(150% - 10px);*/
+  border: 10px solid #FFD700;
+  box-shadow: none;
+  border-radius: 10px;
 
 }
 
@@ -78,4 +80,8 @@ img {
 
 .container {
   margin-right: 30px;
+}
+
+.a.thumbnail:hover {
+  border-color: yellow;
 }
