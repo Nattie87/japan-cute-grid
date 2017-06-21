@@ -14,14 +14,14 @@ h1 {
 }
 
 .page-header {
-  background-color: #8AFFC1;
+  background-color: #E365C1
   padding-top: 20px;
   width: 1130px;
 }
 
 .top-header {
   width: 1130px;
-  background-color: #8AFFC1;
+  background-color: #E365C1
   padding-top: 20px;
   width: 1290px;
 }
@@ -74,4 +74,8 @@ img {
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+.container {
+  margin-right: 30px;
 }

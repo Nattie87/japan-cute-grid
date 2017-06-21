@@ -1,2 +1,2 @@
-# sushi-sushi-fun
-Cute Sushi grid
+# Cutie
+Bootstrap thumbnail grid using Japanese Food Characters
